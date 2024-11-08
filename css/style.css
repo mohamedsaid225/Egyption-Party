@@ -1,0 +1,185 @@
+*,::after,::before{
+    box-sizing: border-box !important;
+}
+body{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    font-family: '-apple-system', 'BlinkMacSystemFont', "Segoe UI", 'Roboto', "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.home{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+.home .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+#home .layer .left-navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0px;
+    background-color: #111;
+    z-index: 999;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+.home .left-navbar a{
+    padding: 25px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+.home .left-navbar >*:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+.home .home-content h2{
+    font-size: 60px;
+}
+.home .home-content span{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.slider h3{
+    padding: 10px;
+    margin: 0 !important;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+.slider-content div{
+    padding: 10px;
+    margin: 0;
+    background-color: #ccc;
+    display: none;
+}
+.timer{
+    background-image:linear-gradient( rgba(214, 46, 51, 0.6),  rgba(214, 46, 51, 0.6)), url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    margin: 100px 0;
+    padding: 100px 0;
+    color: white;
+    /* height:500px ; */
+}
+/* .timer .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+} */
+.timer .box{
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+.contact .container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact .head-content h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact .head-content p{
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.contact .info h3{
+    color: #444;
+    font-size: 18px;
+    font-weight: bold !important;
+}
+.contact .info h3 strong{
+    font-weight: bolder;
+}
+.contact .info p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #777777 !important;
+}
+.contact .contact-details{
+    margin-top: 50px;
+    text-align: center;
+    color: #777 !important;
+}
+.contact .contact-details span{
+    margin-bottom: 35px;
+}
+.contact .icons{
+    margin-top: 60px;
+    color: #777;
+}
+.contact .icons i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s;
+}
+.contact .icons i:hover{
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
+.contact form input{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+.contact form textarea{
+    height: 200px;
+    resize: vertical;
+    border-radius: 0;
+}
+.contact form p{
+    padding-top: 15px !important;
+    text-align: left !important;
+    color: black !important;
+    font-weight: 500 !important;
+}
+.contact form #character{
+    font-size: 20px !important;
+    color: #D62E33 !important;
+    font-weight: 500;
+}
+.contact form button{
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.contact form button:hover{
+    background-color: #D62E33;
+    color: #FFF;
+}
